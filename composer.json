@@ -1,0 +1,20 @@
+{
+    "name": "overnil/event-loop",
+    "description": "React PHP event loop with LibEv 1.0.0.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "overnil",
+            "email": "me@overnil.com"
+        }
+    ],
+    "require": {
+        "react/event-loop": "^0.4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Overnil\\EventLoop\\": "src/Overnil/EventLoop"
+        }
+    }
+}
