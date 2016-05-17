@@ -10,8 +10,7 @@ use React\EventLoop\Timer\TimerInterface;
 use SplObjectStorage;
 
 /**
- * @see https://github.com/m4rw3r/php-libev
- * @see https://gist.github.com/1688204
+ * @see http://docs.php.net/manual/en/book.ev.php
  */
 class LibEvLoop implements LoopInterface
 {
