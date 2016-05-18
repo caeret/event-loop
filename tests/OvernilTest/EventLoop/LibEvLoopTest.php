@@ -24,10 +24,7 @@ class LibEvLoopTest extends AbstractLoopTest
 
     public function createStream()
     {
-        $filename = '/tmp/' . md5(__METHOD__);
-        if (!is_file($filename)) {
-            touch($filename);
-        }
+        $filename = __DIR__ . '/mock/stream';
         return fopen($filename, 'r+');
     }
 }
