@@ -9,5 +9,5 @@ ini_set('session.use_cookies', 0);
 */
 $autoloader = include dirname(__DIR__) . '/vendor/autoload.php';
 // Register test classes
-$autoloader->addPsr4('OvernilTest\\', __DIR__);
+$autoloader->addPsr4('GaemmaTest\\', __DIR__);
 $autoloader->addPsr4('React\\Tests\\EventLoop\\', dirname(__DIR__) . '/vendor/react/event-loop/tests');

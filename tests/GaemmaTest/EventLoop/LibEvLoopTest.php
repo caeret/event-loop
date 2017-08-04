@@ -1,8 +1,8 @@
 <?php
 
-namespace OvernilTest\EventLoop;
+namespace GaemmaTest\EventLoop;
 
-use Overnil\EventLoop\LibEvLoop;
+use Gaemma\EventLoop\LibEvLoop;
 use React\Tests\EventLoop\AbstractLoopTest;
 
 class LibEvLoopTest extends AbstractLoopTest
