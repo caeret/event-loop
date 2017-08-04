@@ -15,7 +15,7 @@
          bootstrap="tests/bootstrap.php"
 >
     <testsuites>
-        <testsuite name="Overnil Test Suite">
+        <testsuite name="Gaemma Test Suite">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>

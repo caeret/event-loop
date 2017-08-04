@@ -1,12 +1,12 @@
 {
-    "name": "overnil/event-loop",
+    "name": "gaemma/event-loop",
     "description": "React PHP event loop with LibEv 1.0.0.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "overnil",
-            "email": "me@overnil.com"
+            "name": "gaemma",
+            "email": "me@gaemma.com"
         }
     ],
     "require": {
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Overnil\\EventLoop\\": "src/Overnil/EventLoop"
+            "Gaemma\\EventLoop\\": "src/Gaemma/EventLoop"
         }
     }
 }

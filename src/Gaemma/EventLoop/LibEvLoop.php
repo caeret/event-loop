@@ -1,6 +1,6 @@
 <?php
 
-namespace Overnil\EventLoop;
+namespace Gaemma\EventLoop;
 
 use React\EventLoop\LoopInterface;
 use React\EventLoop\Tick\FutureTickQueue;

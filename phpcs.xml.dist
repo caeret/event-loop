@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="Overnil coding standard">
-    <description>Overnil coding standard</description>
+<ruleset name="Gaemma coding standard">
+    <description>Gaemma coding standard</description>
 
     <!-- display progress -->
     <arg value="p"/>

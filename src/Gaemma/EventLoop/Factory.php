@@ -1,6 +1,6 @@
 <?php
 
-namespace Overnil\EventLoop;
+namespace Gaemma\EventLoop;
 
 class Factory
 {
